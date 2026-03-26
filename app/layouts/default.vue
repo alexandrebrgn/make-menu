@@ -12,7 +12,7 @@ const handleLogout = () => {
 
 <template>
   <div class="min-h-screen flex flex-col">
-    <!-- <VitePwaManifest /> -->
+    <VitePwaManifest />
 
     <!-- Header / Nav -->
     <nav class="border-b p-4">
