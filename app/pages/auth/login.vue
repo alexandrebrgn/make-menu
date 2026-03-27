@@ -42,7 +42,7 @@ const handleFakeLogin = async () => {
     <div class="bg-white p-8 rounded-lg border border-gray-300 w-full max-w-[360px]">
 
       <div class="flex justify-between pb-6">
-        <h1 class="text-xl font-bold">Sapientia</h1>
+        <h1 class="text-xl font-bold">Make-menu</h1>
 
         <button
           class="bg-black text-white py-2 px-2 rounded-md text-sm font-medium hover:bg-gray-800 transition cursor-pointer"
