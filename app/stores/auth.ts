@@ -31,7 +31,7 @@ export const useAuthStore = defineStore("auth", () => {
 
 			return true;
 		} catch (err) {
-      console.error(err)
+			console.error(err);
 			return false;
 		} finally {
 			loading.value = false;
@@ -54,11 +54,11 @@ export const useAuthStore = defineStore("auth", () => {
 
 	// Restaure la session au chargement
 	const init = () => {
-    // Faux token
+		// Faux token
 		if (config.public.NUXT_PUBLIC_FAKE_AUTH === "true") {
 			setFakeToken();
 			console.log("eae");
-      return;
+			return;
 		}
 
 		if (import.meta.client) {

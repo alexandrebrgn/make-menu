@@ -1,3 +1,6 @@
 {
-    "welcome": "Welcome"
+    "home" : "Welcome",
+    "fridge" : "Fridge",
+    "recipes" : "Recipes",
+    "kitchen" : "Kitchen"
 }
