@@ -75,7 +75,6 @@ const handleToggleSidebar = () => {
             <Icon v-if="index < breadcrumb.length - 1" name="solar:alt-arrow-right-outline" size="16" />
           </template>
         </div>
-        <p> <!-- Nom de la route a remplir de puis le store ou autre --></p>
       </div>
       <slot/>
     </main>

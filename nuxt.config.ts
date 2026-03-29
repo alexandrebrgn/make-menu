@@ -42,11 +42,11 @@ export default defineNuxtConfig({
 		},
 		registerType: "autoUpdate",
 		manifest: {
-			name: "Sapientia",
-			short_name: "Sapientia",
-			description: "Sapientia Application",
+			name: "MakeMenu",
+			short_name: "MakeMenu",
+			description: "MakeMenu Application",
 			theme_color: "#ffffff",
-			background_color: "#ffffff",
+			background_color: "#000000",
 			display: "standalone",
 			lang: "fr",
 			icons: [
