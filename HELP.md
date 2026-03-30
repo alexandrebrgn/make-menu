@@ -98,3 +98,55 @@ ___
 Si l'application n'est pas configurée en SPA, en indiquant `ssr: false` dans `nuxt.config.ts`, les middlwares s'exécutent avant le rendu de la page, peuvent bloquer la navigation, peuvent accéder au stores.
 
 En SPA, les middlewares s'éxecutent uniquement coté client. Cette application est une SPA.
+
+# Traitement des données
+
+Architecture de l'appli
+
+Nuxt 4 (Front) <-> Nitro + Prisma (back) <-> PostgresSql dans Docker (BDD)
+
+## Postgres Docker
+
+### Commandes docker 
+
+Créer Container
+
+```bash
+docker run -d \
+  --name postgres \ 
+  -e POSTGRES_PASSWORD=******** \
+  -e POSTGRES_USER=******** \
+  -e POSTGRES_DB=makemenu \
+  -p 5432:5432 \
+  -v postgres_data:/var/lib/postgresql/data \
+  postgres:latest
+```
+
+Entrer dans le container
+```bash
+    docker exec -it <container_name> bash
+```
+
+Entrer dans la base de données
+```bash
+    psql -U <user_name> -d <db_name>
+```
+
+## Prisma
+
+Visiter la documentation de [Prisma Postgres](https://www.prisma.io/docs/prisma-postgres/quickstart/prisma-orm)
+
+Prisa est un ORM open-source qui est fait pour communiquer avce une BDD postgresSQL.
+
+La commande `npx create-db` créé une base de donnée hébergé par Prisma donc publiquement accessible. Elle se supprime au bout d'un jour si le créateur ne la 'claim' pas. 
+
+Pour migrate le schema de la BDD écrit dans `prisma/schema.prisma` :
+```bash
+    npx prisma migrate dev --name init
+```
+
+Ensuite générer le client :
+```bash
+    npx prisma generate
+```
+

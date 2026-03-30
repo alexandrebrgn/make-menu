@@ -9,6 +9,10 @@ export default defineNuxtConfig({
 			fakeAuth: true,
 		},
 	},
+	nitro: {
+		preset: 'vercel',
+	},
+	buildDir: "dist",
 	modules: [
 		"@nuxtjs/i18n",
 		"@nuxtjs/tailwindcss",
@@ -37,6 +41,7 @@ export default defineNuxtConfig({
 		storesDirs: ["./app/stores"],
 	},
 	pwa: {
+		disable: process.env.NODE_ENV === 'development',
 		devOptions: {
 			enabled: true,
 		},
