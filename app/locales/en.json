@@ -2,5 +2,6 @@
     "home" : "Welcome",
     "fridge" : "Fridge",
     "recipes" : "Recipes",
-    "kitchen" : "Kitchen"
+    "kitchen" : "Kitchen",
+    "dev": "Developer"
 }

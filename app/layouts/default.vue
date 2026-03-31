@@ -11,6 +11,7 @@ const menu = [
   { name: t('fridge'), link: '/fridge', icon: 'solar:fridge-outline' },
   { name: t('recipes'), link: '/recipes', icon: 'solar:book-outline' },
   { name: t('kitchen'), link: '/kitchen', icon: 'solar:oven-mitts-linear' },
+  { name: t('dev'), link: '/dev', icon: 'solar:code-linear' }
 ]
 
 const handleLogout = () => {
