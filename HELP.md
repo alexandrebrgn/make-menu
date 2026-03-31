@@ -105,6 +105,18 @@ Architecture de l'appli
 
 Nuxt 4 (Front) <-> Nitro + Prisma (back) <-> PostgresSql dans Docker (BDD)
 
+## BDD de dev en local
+
+1. Modifier le `.env`:
+```bash
+DATABASE_URL="postgresql://<username>:<dbpassword>@localhost:<port>/<dbname>"
+```
+
+2. Migrer les tables:
+```
+npx prisma migrate dev --name init
+```
+
 ## Postgres Docker
 
 ### Commandes docker 
