@@ -1,84 +1,134 @@
 import { defineStore } from "pinia";
+import { User } from "../utils/types/User";
 
-// *** Mettre des toasts en cas d'erreur et de succès
 export const useAuthStore = defineStore("auth", () => {
 	const config = useRuntimeConfig();
 
-	const user = ref<unknown>(null);
-	const token = ref<string | null>(null);
+	const user = ref<User | null>(null);
 	const loading = ref(false);
 
-	const isLoggedIn = computed(() => !!token.value);
+	// Vérifier si l'utilisateur est connecté en vérifiant la présence de l'utilisateur
+	const isLoggedIn = computed(() => {
+		return !!user.value;
+	});
+
+	// Vérifier si un token existe dans les cookies
+	const hasToken = computed(() => {
+		if (process.client) {
+			return !!useCookie('auth_status').value;
+		}
+		return false;
+	});
 
 	const login = async (email: string, password: string) => {
 		loading.value = true;
 
 		try {
-			const response = await $fetch<{ token: string; user: unknown }>(
-				// *** Changer avec url de l'API
-				`${config.public.apiBaseUrl}/auth/login`,
+			const response = await $fetch<{
+				success: boolean;
+				user: any;
+			}>(
+				`/api/auth/login`,
 				{
 					method: "POST",
 					body: { email, password },
 				},
 			);
 
-			token.value = response.token;
+			// Les tokens sont automatiquement définis par l'API dans des cookies httpOnly
 			user.value = response.user;
 
-			localStorage.setItem("token", token.value);
-			// localStorage.setItem("user", JSON.stringify(user.value));
-
 			return true;
-		} catch (err) {
+		} catch (err: any) {
 			console.error(err);
-			return false;
+			throw new Error(err.data?.statusMessage || 'Erreur de connexion');
 		} finally {
 			loading.value = false;
 		}
 	};
 
-	const logout = () => {
-		token.value = null;
-		user.value = null;
-		localStorage.removeItem("token");
-		// localStorage.removeItem("user");
-		navigateTo("/auth/login");
-	};
+	const register = async (userData: {
+		email: string;
+		password: string;
+		firstname: string;
+		lastname: string;
+	}) => {
+		loading.value = true;
 
-	const setFakeToken = () => {
-		if (!localStorage.getItem("token")) {
-			localStorage.setItem("token", "testToken");
+		try {
+			const response = await $fetch<{
+				success: boolean;
+				message: string;
+				user: any;
+			}>(
+				`/api/auth/register`,
+				{
+					method: "POST",
+					body: userData,
+				},
+			);
+
+			return response;
+		} catch (err: any) {
+			console.error(err);
+			throw new Error(err.data?.statusMessage || 'Erreur d\'inscription');
+		} finally {
+			loading.value = false;
 		}
 	};
 
-	// Restaure la session au chargement
-	const init = () => {
-		// Faux token
-		if (config.public.NUXT_PUBLIC_FAKE_AUTH === "true") {
-			setFakeToken();
-			console.log("eae");
-			return;
-		}
-
-		if (import.meta.client) {
-			const savedToken = localStorage.getItem("token");
-			// const savedUser = localStorage.getItem("user");
-
-			if (savedToken) token.value = savedToken;
-			// if (savedUser) user.value = JSON.parse(savedUser);
+	const logout = async () => {
+		try {
+			await $fetch(`/api/auth/logout`, {
+				method: "POST",
+			});
+		} catch (error) {
+			console.error('Erreur lors du logout:', error);
+		} finally {
+			// Nettoyer le state local même si l'API échoue
+			user.value = null;
+			// Les cookies sont supprimés côté serveur
 		}
 	};
 
-	init();
+	const refreshToken = async () => {
+		try {
+			await $fetch(`/api/auth/refresh`, {
+				method: "POST",
+			});
+		} catch (error) {
+			console.error('Erreur lors du refresh token:', error);
+			// Si le refresh échoue, déconnecter l'utilisateur
+			await logout();
+		}
+	};
+
+	// Initialiser l'utilisateur au chargement de l'app
+	const initAuth = async () => {
+		if (hasToken.value) {
+			try {
+				// Récupérer le profil utilisateur
+				const response = await $fetch<{ success: boolean; user: any }>(
+					`/api/users/profile`
+				);
+				user.value = response.user;
+			} catch (error) {
+				console.error('Erreur lors de l\'initialisation auth:', error);
+				// Si on ne peut pas récupérer le profil, déconnecter
+				await logout();
+			}
+		}
+	};
 
 	return {
 		user,
-		token,
 		loading,
 		isLoggedIn,
+		hasToken,
 		login,
+		register,
 		logout,
-		setFakeToken,
+		refreshToken,
+		initAuth,
 	};
 });

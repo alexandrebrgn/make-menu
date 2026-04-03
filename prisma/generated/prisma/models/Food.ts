@@ -490,10 +490,6 @@ export type NullableDateTimeFieldUpdateOperationsInput = {
   set?: Date | string | null
 }
 
-export type DateTimeFieldUpdateOperationsInput = {
-  set?: Date | string
-}
-
 export type FoodCreateWithoutUserInput = {
   name: string
   quantity: number

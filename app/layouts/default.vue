@@ -1,9 +1,11 @@
 <script setup lang="ts">
+import { routerKey } from 'vue-router';
 import { useAuthStore } from '~/stores/auth';
 
 const { t } = useI18n();
 const auth = useAuthStore();
 const route = useRoute()
+const router = useRouter();
 const toggledBar = ref(true)
 
 const menu = [
@@ -14,8 +16,9 @@ const menu = [
   { name: t('dev'), link: '/dev', icon: 'solar:code-linear' }
 ]
 
-const handleLogout = () => {
+const handleLogout = async () => {
   auth.logout()
+  await router.push('/auth/login')
 }
 
 const breadcrumb = computed(() => {

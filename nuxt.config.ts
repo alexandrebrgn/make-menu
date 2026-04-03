@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 	devtools: { enabled: true },
 	runtimeConfig: {
 		public: {
-			apiBaseUrl: "http://localhost:8080/api",
+			apiBaseUrl: "http://localhost:8000/api",
 			fakeAuth: true,
 		},
 	},
