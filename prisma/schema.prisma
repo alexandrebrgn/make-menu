@@ -32,6 +32,27 @@ model Food {
   createdAt DateTime @default(now())
 }
 
+model FoodReference {
+  id              Int      @id @default(autoincrement())
+  name            String
+  slug            String   @unique
+  unit            String?
+  defaultQuantity Float?
+  description     String?
+  categoryId      Int
+  category        Category @relation(fields: [categoryId], references: [id])
+  createdAt       DateTime @default(now())
+}
+
+model Category {
+  id             Int             @id @default(autoincrement())
+  name           String
+  slug           String          @unique
+  description    String?
+  foodReferences FoodReference[]
+  createdAt      DateTime        @default(now())
+}
+
 enum Role {
   USER
   ADMIN

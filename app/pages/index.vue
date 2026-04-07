@@ -1,8 +1,6 @@
 <script setup lang="ts">
-import { useFridgeStore } from '~/stores/fridge';
 
 const { $pwa } = useNuxtApp();
-const fridgeStore = useFridgeStore();
 
 const handleInstallPwa = (() => {
     useNuxtApp().$pwa?.install()

@@ -46,15 +46,15 @@ const handleResetFoods = async () => {
     <div class="min-h-screen px-4">
         <p class="text-2xl text-black font-bold">{{ t('fridge') }}</p>
         <div class="flex gap-2 pt-4">
-            <!-- <button class="px-4 py-2 bg-black rounded-lg text-white border border-gray-500 " @click="handlePost">
+            <button class="px-4 py-2 bg-black rounded-lg text-white border border-gray-500 " @click="handlePost">
                 Créé food
-            </button> -->
-            <!-- <button class="px-4 py-2 bg-black rounded-lg text-white border border-gray-500 " @click="handlePostUser">
+            </button>
+            <button class="px-4 py-2 bg-black rounded-lg text-white border border-gray-500 " @click="handlePostUser">
                 Créé user
             </button>
             <button class="px-4 py-2 bg-black rounded-lg text-white border border-gray-500 " @click="handleResetFoods">
                 Reset foods
-            </button> -->
+            </button>
         </div>
     </div>
 </template>

@@ -1,0 +1,440 @@
+name,category_id,unit,defaultQuantity,description,slug
+Carotte,1,pièce,1,Carotte fraîche et croquante,carotte
+Tomate,1,pièce,1,Tomate rouge juteuse,tomate
+Courgette,1,pièce,1,Courgette verte tendre,courgette
+Poivron,1,pièce,1,Poivron coloré croquant,poivron
+Brocoli,1,grammes,100,Brocoli vert riche en fibres,brocoli
+Chou-fleur,1,pièce,1,Chou-fleur blanc savoureux,chou-fleur
+Épinards,1,grammes,100,Feuilles d’épinards fraîches,epinards
+Salade,1,pièce,1,Salade verte croquante,salade
+Oignon,1,pièce,1,Oignon jaune parfumé,oignon
+Ail,1,gousse,100,Gousse d’ail aromatique,ail
+Pomme,2,pièce,1,Pomme sucrée et croquante,pomme
+Banane,2,pièce,1,Banane mûre,banane
+Poire,2,pièce,1,Poire juteuse,poire
+Fraise,2,grammes,100,Fraises fraîches,fraise
+Raisin,2,grammes,100,Raisin sucré,raisin
+Kiwi,2,pièce,1,Kiwi vitaminé,kiwi
+Orange,2,pièce,1,Orange juteuse,orange
+Citron,2,pièce,1,Citron acidulé,citron
+Ananas,2,pièce,1,Ananas tropical,ananas
+Melon,2,pièce,1,Melon sucré,melon
+Saumon,3,grammes,100,Filet de saumon frais,saumon
+Cabillaud,3,grammes,100,Filet de cabillaud tendre,cabillaud
+Thon,3,grammes,100,Thon en tranche,thon
+Maquereau,3,grammes,100,Maquereau grillé,maquereau
+Sardines,3,pièce,1,Sardines entières,sardines
+Truite,3,grammes,100,Truite fraîche,truite
+Colin,3,grammes,100,Filet de colin,colin
+Bar,3,grammes,100,Filet de bar,bar
+Dorade,3,grammes,100,Dorade royale,dorade
+Lieu noir,3,grammes,100,Filet de lieu noir,lieu-noir
+Steak haché,4,grammes,100,Steak haché pur bœuf,steak-hache
+Côte de porc,4,grammes,100,Côte de porc juteuse,cote-de-porc
+Rôti de porc,4,grammes,100,Rôti de porc tendre,roti-de-porc
+Saucisse,4,grammes,100,Saucisse de campagne,saucisse
+Jambon cru,4,grammes,100,Jambon cru affiné,jambon-cru
+Boudin noir,4,grammes,100,Boudin noir traditionnel,boudin-noir
+Foie de veau,4,grammes,100,Foie de veau délicat,foie-de-veau
+Entrecôte,4,grammes,100,Entrecôte de bœuf,entrecote
+Côte de bœuf,4,grammes,100,Côte de bœuf savoureuse,cote-de-buf
+Gigot d’agneau,4,grammes,100,Gigot d’agneau fondant,gigot-dagneau
+Lait,5,litre,100,Lait entier ou demi-écrémé,lait
+Beurre,5,grammes,100,Beurre doux ou demi-sel,beurre
+Fromage blanc,5,grammes,100,Fromage blanc onctueux,fromage-blanc
+Fromage râpé,5,grammes,100,Fromage râpé emmental,fromage-rape
+Yaourt nature,5,pièce,1,Yaourt nature,yaourt-nature
+Crème fraîche,5,grammes,100,Crème fraîche épaisse,creme-fraiche
+Lait concentré,5,grammes,100,Lait concentré sucré,lait-concentre
+Lait fermenté,5,litre,100,Lait fermenté probiotique,lait-fermente
+Fromage de chèvre,5,grammes,100,Fromage de chèvre doux,fromage-de-chevre
+Lait d’amande,5,litre,100,Lait végétal d’amande,lait-damande
+Riz,6,grammes,100,Riz blanc ou complet,riz
+Pâtes,6,grammes,100,Pâtes sèches,pates
+Semoule,6,grammes,100,Semoule fine ou moyenne,semoule
+Couscous,6,grammes,100,Grains de couscous,couscous
+Boulgour,6,grammes,100,Boulgour de blé dur,boulgour
+Millet,6,grammes,100,Millet décortiqué,millet
+Orge,6,grammes,100,Orge perlé,orge
+Flocons d’avoine,6,grammes,100,Flocons d’avoine complets,flocons-davoine
+Polenta,6,grammes,100,Semoule de maïs,polenta
+Quinoa,6,grammes,100,Graines de quinoa,quinoa
+Pain,7,pièce,1,Pain de campagne,pain
+Baguette,7,pièce,1,Baguette tradition,baguette
+Pain complet,7,pièce,1,Pain complet bio,pain-complet
+Pain de mie,7,pièce,1,Pain de mie moelleux,pain-de-mie
+Pain pita,7,pièce,1,Pain pita souple,pain-pita
+Pain burger,7,pièce,1,Pain à burger,pain-burger
+Pain aux céréales,7,pièce,1,Pain aux graines,pain-aux-cereales
+Brioche,7,pièce,1,Brioche pur beurre,brioche
+Croissant,7,pièce,1,Croissant croustillant,croissant
+Pain au lait,7,pièce,1,Pain au lait doux,pain-au-lait
+Sucre,8,grammes,100,Sucre blanc ou roux,sucre
+Sel,8,grammes,100,Sel fin ou gros sel,sel
+Poivre,8,grammes,100,Poivre noir moulu,poivre
+Farine,8,grammes,100,Farine de blé T55,farine
+Huile d’olive,8,ml,100,Huile d’olive vierge extra,huile-dolive
+Huile de tournesol,8,ml,100,Huile de tournesol,huile-de-tournesol
+Moutarde,8,grammes,100,Moutarde forte,moutarde
+Vinaigre,8,ml,100,Vinaigre de vin rouge,vinaigre
+Chocolat,8,grammes,100,Chocolat noir pâtissier,chocolat
+Confiture,8,grammes,100,Confiture de fraise maison,confiture
+Eau minérale,9,litre,100,Eau de source naturelle,eau-minerale
+Eau gazeuse,9,litre,100,Eau pétillante,eau-gazeuse
+Jus d’orange,9,ml,100,Jus d’orange pressé,jus-dorange
+Soda,9,ml,100,Boisson gazeuse sucrée,soda
+Limonade,9,ml,100,Limonade artisanale,limonade
+Thé noir,9,grammes,100,Thé noir en vrac,the-noir
+Thé vert,9,grammes,100,Thé vert sencha,the-vert
+Café moulu,9,grammes,100,Café moulu arabica,cafe-moulu
+Sirop de menthe,9,ml,100,Sirop rafraîchissant à la menthe,sirop-de-menthe
+Boisson énergétique,9,ml,100,Boisson énergisante,boisson-energetique
+Carotte,1,pièce,1,Carotte fraîche et croquante,carotte-4415
+Tomate,1,pièce,1,Tomate rouge juteuse,tomate-6913
+Courgette,1,pièce,1,Courgette verte tendre,courgette-1277
+Poivron,1,pièce,1,Poivron coloré croquant,poivron-7812
+Brocoli,1,grammes,100,Brocoli vert riche en fibres,brocoli-1991
+Chou-fleur,1,pièce,1,Chou-fleur blanc savoureux,chou-fleur-6618
+Épinards,1,grammes,100,Feuilles d’épinards fraîches,epinards-4209
+Salade,1,pièce,1,Salade verte croquante,salade-8599
+Oignon,1,pièce,1,Oignon jaune parfumé,oignon-2981
+Ail,1,gousse,100,Gousse d’ail aromatique,ail-9857
+Pomme,2,pièce,1,Pomme sucrée et croquante,pomme-3437
+Banane,2,pièce,1,Banane mûre,banane-4087
+Poire,2,pièce,1,Poire juteuse,poire-3891
+Fraise,2,grammes,100,Fraises fraîches,fraise-2275
+Raisin,2,grammes,100,Raisin sucré,raisin-2835
+Kiwi,2,pièce,1,Kiwi vitaminé,kiwi-8634
+Orange,2,pièce,1,Orange juteuse,orange-5963
+Citron,2,pièce,1,Citron acidulé,citron-7731
+Ananas,2,pièce,1,Ananas tropical,ananas-6719
+Melon,2,pièce,1,Melon sucré,melon-3109
+Saumon,3,grammes,100,Filet de saumon frais,saumon-6658
+Cabillaud,3,grammes,100,Filet de cabillaud tendre,cabillaud-6936
+Thon,3,grammes,100,Thon en tranche,thon-5819
+Maquereau,3,grammes,100,Maquereau grillé,maquereau-2643
+Sardines,3,pièce,1,Sardines entières,sardines-2443
+Truite,3,grammes,100,Truite fraîche,truite-1162
+Colin,3,grammes,100,Filet de colin,colin-4803
+Bar,3,grammes,100,Filet de bar,bar-5382
+Dorade,3,grammes,100,Dorade royale,dorade-8624
+Lieu noir,3,grammes,100,Filet de lieu noir,lieu-noir-6884
+Steak haché,4,grammes,100,Steak haché pur bœuf,steak-hache-9164
+Côte de porc,4,grammes,100,Côte de porc juteuse,cote-de-porc-7304
+Rôti de porc,4,grammes,100,Rôti de porc tendre,roti-de-porc-6658
+Saucisse,4,grammes,100,Saucisse de campagne,saucisse-9091
+Jambon cru,4,grammes,100,Jambon cru affiné,jambon-cru-9499
+Boudin noir,4,grammes,100,Boudin noir traditionnel,boudin-noir-5085
+Foie de veau,4,grammes,100,Foie de veau délicat,foie-de-veau-8211
+Entrecôte,4,grammes,100,Entrecôte de bœuf,entrecote-5524
+Côte de bœuf,4,grammes,100,Côte de bœuf savoureuse,cote-de-buf-9660
+Gigot d’agneau,4,grammes,100,Gigot d’agneau fondant,gigot-dagneau-9917
+Lait,5,litre,100,Lait entier ou demi-écrémé,lait-6353
+Beurre,5,grammes,100,Beurre doux ou demi-sel,beurre-5922
+Fromage blanc,5,grammes,100,Fromage blanc onctueux,fromage-blanc-8757
+Fromage râpé,5,grammes,100,Fromage râpé emmental,fromage-rape-6887
+Yaourt nature,5,pièce,1,Yaourt nature,yaourt-nature-5346
+Crème fraîche,5,grammes,100,Crème fraîche épaisse,creme-fraiche-3737
+Lait concentré,5,grammes,100,Lait concentré sucré,lait-concentre-7822
+Lait fermenté,5,litre,100,Lait fermenté probiotique,lait-fermente-2094
+Fromage de chèvre,5,grammes,100,Fromage de chèvre doux,fromage-de-chevre-2391
+Lait d’amande,5,litre,100,Lait végétal d’amande,lait-damande-7806
+Riz,6,grammes,100,Riz blanc ou complet,riz-9759
+Pâtes,6,grammes,100,Pâtes sèches,pates-1825
+Semoule,6,grammes,100,Semoule fine ou moyenne,semoule-7244
+Couscous,6,grammes,100,Grains de couscous,couscous-9951
+Boulgour,6,grammes,100,Boulgour de blé dur,boulgour-3382
+Millet,6,grammes,100,Millet décortiqué,millet-5353
+Orge,6,grammes,100,Orge perlé,orge-3955
+Flocons d’avoine,6,grammes,100,Flocons d’avoine complets,flocons-davoine-9143
+Polenta,6,grammes,100,Semoule de maïs,polenta-3196
+Quinoa,6,grammes,100,Graines de quinoa,quinoa-6007
+Pain,7,pièce,1,Pain de campagne,pain-5353
+Baguette,7,pièce,1,Baguette tradition,baguette-4792
+Pain complet,7,pièce,1,Pain complet bio,pain-complet-6205
+Pain de mie,7,pièce,1,Pain de mie moelleux,pain-de-mie-4558
+Pain pita,7,pièce,1,Pain pita souple,pain-pita-6023
+Pain burger,7,pièce,1,Pain à burger,pain-burger-7613
+Pain aux céréales,7,pièce,1,Pain aux graines,pain-aux-cereales-5110
+Brioche,7,pièce,1,Brioche pur beurre,brioche-8975
+Croissant,7,pièce,1,Croissant croustillant,croissant-1992
+Pain au lait,7,pièce,1,Pain au lait doux,pain-au-lait-6525
+Sucre,8,grammes,100,Sucre blanc ou roux,sucre-1698
+Sel,8,grammes,100,Sel fin ou gros sel,sel-7253
+Poivre,8,grammes,100,Poivre noir moulu,poivre-4516
+Farine,8,grammes,100,Farine de blé T55,farine-6277
+Huile d’olive,8,ml,100,Huile d’olive vierge extra,huile-dolive-4580
+Huile de tournesol,8,ml,100,Huile de tournesol,huile-de-tournesol-7014
+Moutarde,8,grammes,100,Moutarde forte,moutarde-5257
+Vinaigre,8,ml,100,Vinaigre de vin rouge,vinaigre-5406
+Chocolat,8,grammes,100,Chocolat noir pâtissier,chocolat-7265
+Confiture,8,grammes,100,Confiture de fraise maison,confiture-3330
+Eau minérale,9,litre,100,Eau de source naturelle,eau-minerale-8136
+Eau gazeuse,9,litre,100,Eau pétillante,eau-gazeuse-6470
+Jus d’orange,9,ml,100,Jus d’orange pressé,jus-dorange-5824
+Soda,9,ml,100,Boisson gazeuse sucrée,soda-5602
+Limonade,9,ml,100,Limonade artisanale,limonade-4132
+Thé noir,9,grammes,100,Thé noir en vrac,the-noir-6115
+Thé vert,9,grammes,100,Thé vert sencha,the-vert-2200
+Café moulu,9,grammes,100,Café moulu arabica,cafe-moulu-1832
+Sirop de menthe,9,ml,100,Sirop rafraîchissant à la menthe,sirop-de-menthe-7143
+Boisson énergétique,9,ml,100,Boisson énergisante,boisson-energetique-3225
+Carotte,1,pièce,1,Carotte fraîche et croquante,carotte-6707
+Tomate,1,pièce,1,Tomate rouge juteuse,tomate-5542
+Courgette,1,pièce,1,Courgette verte tendre,courgette-7143
+Poivron,1,pièce,1,Poivron coloré croquant,poivron-2545
+Brocoli,1,grammes,100,Brocoli vert riche en fibres,brocoli-7453
+Chou-fleur,1,pièce,1,Chou-fleur blanc savoureux,chou-fleur-6236
+Épinards,1,grammes,100,Feuilles d’épinards fraîches,epinards-8606
+Salade,1,pièce,1,Salade verte croquante,salade-9548
+Oignon,1,pièce,1,Oignon jaune parfumé,oignon-6570
+Ail,1,gousse,100,Gousse d’ail aromatique,ail-8020
+Pomme,2,pièce,1,Pomme sucrée et croquante,pomme-4165
+Banane,2,pièce,1,Banane mûre,banane-9157
+Poire,2,pièce,1,Poire juteuse,poire-8406
+Fraise,2,grammes,100,Fraises fraîches,fraise-3397
+Raisin,2,grammes,100,Raisin sucré,raisin-8861
+Kiwi,2,pièce,1,Kiwi vitaminé,kiwi-4776
+Orange,2,pièce,1,Orange juteuse,orange-6371
+Citron,2,pièce,1,Citron acidulé,citron-2847
+Ananas,2,pièce,1,Ananas tropical,ananas-5610
+Melon,2,pièce,1,Melon sucré,melon-8317
+Saumon,3,grammes,100,Filet de saumon frais,saumon-3614
+Cabillaud,3,grammes,100,Filet de cabillaud tendre,cabillaud-8927
+Thon,3,grammes,100,Thon en tranche,thon-3375
+Maquereau,3,grammes,100,Maquereau grillé,maquereau-4444
+Sardines,3,pièce,1,Sardines entières,sardines-1360
+Truite,3,grammes,100,Truite fraîche,truite-2766
+Colin,3,grammes,100,Filet de colin,colin-1499
+Bar,3,grammes,100,Filet de bar,bar-3639
+Dorade,3,grammes,100,Dorade royale,dorade-5261
+Lieu noir,3,grammes,100,Filet de lieu noir,lieu-noir-9161
+Steak haché,4,grammes,100,Steak haché pur bœuf,steak-hache-5479
+Côte de porc,4,grammes,100,Côte de porc juteuse,cote-de-porc-4245
+Rôti de porc,4,grammes,100,Rôti de porc tendre,roti-de-porc-7482
+Saucisse,4,grammes,100,Saucisse de campagne,saucisse-7555
+Jambon cru,4,grammes,100,Jambon cru affiné,jambon-cru-8772
+Boudin noir,4,grammes,100,Boudin noir traditionnel,boudin-noir-9399
+Foie de veau,4,grammes,100,Foie de veau délicat,foie-de-veau-3043
+Entrecôte,4,grammes,100,Entrecôte de bœuf,entrecote-7909
+Côte de bœuf,4,grammes,100,Côte de bœuf savoureuse,cote-de-buf-3234
+Gigot d’agneau,4,grammes,100,Gigot d’agneau fondant,gigot-dagneau-8236
+Lait,5,litre,100,Lait entier ou demi-écrémé,lait-6681
+Beurre,5,grammes,100,Beurre doux ou demi-sel,beurre-1843
+Fromage blanc,5,grammes,100,Fromage blanc onctueux,fromage-blanc-8491
+Fromage râpé,5,grammes,100,Fromage râpé emmental,fromage-rape-3538
+Yaourt nature,5,pièce,1,Yaourt nature,yaourt-nature-2250
+Crème fraîche,5,grammes,100,Crème fraîche épaisse,creme-fraiche-1893
+Lait concentré,5,grammes,100,Lait concentré sucré,lait-concentre-7665
+Lait fermenté,5,litre,100,Lait fermenté probiotique,lait-fermente-5836
+Fromage de chèvre,5,grammes,100,Fromage de chèvre doux,fromage-de-chevre-3564
+Lait d’amande,5,litre,100,Lait végétal d’amande,lait-damande-9138
+Riz,6,grammes,100,Riz blanc ou complet,riz-7086
+Pâtes,6,grammes,100,Pâtes sèches,pates-1745
+Semoule,6,grammes,100,Semoule fine ou moyenne,semoule-4654
+Couscous,6,grammes,100,Grains de couscous,couscous-8379
+Boulgour,6,grammes,100,Boulgour de blé dur,boulgour-8429
+Millet,6,grammes,100,Millet décortiqué,millet-8798
+Orge,6,grammes,100,Orge perlé,orge-5576
+Flocons d’avoine,6,grammes,100,Flocons d’avoine complets,flocons-davoine-1196
+Polenta,6,grammes,100,Semoule de maïs,polenta-7954
+Quinoa,6,grammes,100,Graines de quinoa,quinoa-5782
+Pain,7,pièce,1,Pain de campagne,pain-4502
+Baguette,7,pièce,1,Baguette tradition,baguette-6441
+Pain complet,7,pièce,1,Pain complet bio,pain-complet-5876
+Pain de mie,7,pièce,1,Pain de mie moelleux,pain-de-mie-2713
+Pain pita,7,pièce,1,Pain pita souple,pain-pita-7260
+Pain burger,7,pièce,1,Pain à burger,pain-burger-9052
+Pain aux céréales,7,pièce,1,Pain aux graines,pain-aux-cereales-2221
+Brioche,7,pièce,1,Brioche pur beurre,brioche-7872
+Croissant,7,pièce,1,Croissant croustillant,croissant-5678
+Pain au lait,7,pièce,1,Pain au lait doux,pain-au-lait-6591
+Sucre,8,grammes,100,Sucre blanc ou roux,sucre-8484
+Sel,8,grammes,100,Sel fin ou gros sel,sel-6033
+Poivre,8,grammes,100,Poivre noir moulu,poivre-2849
+Farine,8,grammes,100,Farine de blé T55,farine-4919
+Huile d’olive,8,ml,100,Huile d’olive vierge extra,huile-dolive-7093
+Huile de tournesol,8,ml,100,Huile de tournesol,huile-de-tournesol-5700
+Moutarde,8,grammes,100,Moutarde forte,moutarde-6122
+Vinaigre,8,ml,100,Vinaigre de vin rouge,vinaigre-8156
+Chocolat,8,grammes,100,Chocolat noir pâtissier,chocolat-6296
+Confiture,8,grammes,100,Confiture de fraise maison,confiture-9981
+Eau minérale,9,litre,100,Eau de source naturelle,eau-minerale-6474
+Eau gazeuse,9,litre,100,Eau pétillante,eau-gazeuse-7999
+Jus d’orange,9,ml,100,Jus d’orange pressé,jus-dorange-4386
+Soda,9,ml,100,Boisson gazeuse sucrée,soda-9992
+Limonade,9,ml,100,Limonade artisanale,limonade-9648
+Thé noir,9,grammes,100,Thé noir en vrac,the-noir-4730
+Thé vert,9,grammes,100,Thé vert sencha,the-vert-9869
+Café moulu,9,grammes,100,Café moulu arabica,cafe-moulu-2102
+Sirop de menthe,9,ml,100,Sirop rafraîchissant à la menthe,sirop-de-menthe-3885
+Boisson énergétique,9,ml,100,Boisson énergisante,boisson-energetique-2755
+Carotte,1,pièce,1,Carotte fraîche et croquante,carotte-9527
+Tomate,1,pièce,1,Tomate rouge juteuse,tomate-4604
+Courgette,1,pièce,1,Courgette verte tendre,courgette-2060
+Poivron,1,pièce,1,Poivron coloré croquant,poivron-9106
+Brocoli,1,grammes,100,Brocoli vert riche en fibres,brocoli-9787
+Chou-fleur,1,pièce,1,Chou-fleur blanc savoureux,chou-fleur-7887
+Épinards,1,grammes,100,Feuilles d’épinards fraîches,epinards-2294
+Salade,1,pièce,1,Salade verte croquante,salade-2772
+Oignon,1,pièce,1,Oignon jaune parfumé,oignon-3398
+Ail,1,gousse,100,Gousse d’ail aromatique,ail-6921
+Pomme,2,pièce,1,Pomme sucrée et croquante,pomme-6476
+Banane,2,pièce,1,Banane mûre,banane-5226
+Poire,2,pièce,1,Poire juteuse,poire-6734
+Fraise,2,grammes,100,Fraises fraîches,fraise-4474
+Raisin,2,grammes,100,Raisin sucré,raisin-4365
+Kiwi,2,pièce,1,Kiwi vitaminé,kiwi-8056
+Orange,2,pièce,1,Orange juteuse,orange-1391
+Citron,2,pièce,1,Citron acidulé,citron-9241
+Ananas,2,pièce,1,Ananas tropical,ananas-8518
+Melon,2,pièce,1,Melon sucré,melon-8671
+Saumon,3,grammes,100,Filet de saumon frais,saumon-6398
+Cabillaud,3,grammes,100,Filet de cabillaud tendre,cabillaud-3741
+Thon,3,grammes,100,Thon en tranche,thon-5849
+Maquereau,3,grammes,100,Maquereau grillé,maquereau-5557
+Sardines,3,pièce,1,Sardines entières,sardines-6447
+Truite,3,grammes,100,Truite fraîche,truite-8985
+Colin,3,grammes,100,Filet de colin,colin-3958
+Bar,3,grammes,100,Filet de bar,bar-4883
+Dorade,3,grammes,100,Dorade royale,dorade-5999
+Lieu noir,3,grammes,100,Filet de lieu noir,lieu-noir-6152
+Steak haché,4,grammes,100,Steak haché pur bœuf,steak-hache-4603
+Côte de porc,4,grammes,100,Côte de porc juteuse,cote-de-porc-2242
+Rôti de porc,4,grammes,100,Rôti de porc tendre,roti-de-porc-9353
+Saucisse,4,grammes,100,Saucisse de campagne,saucisse-6806
+Jambon cru,4,grammes,100,Jambon cru affiné,jambon-cru-4453
+Boudin noir,4,grammes,100,Boudin noir traditionnel,boudin-noir-7425
+Foie de veau,4,grammes,100,Foie de veau délicat,foie-de-veau-2711
+Entrecôte,4,grammes,100,Entrecôte de bœuf,entrecote-7130
+Côte de bœuf,4,grammes,100,Côte de bœuf savoureuse,cote-de-buf-5535
+Gigot d’agneau,4,grammes,100,Gigot d’agneau fondant,gigot-dagneau-3504
+Lait,5,litre,100,Lait entier ou demi-écrémé,lait-2986
+Beurre,5,grammes,100,Beurre doux ou demi-sel,beurre-9311
+Fromage blanc,5,grammes,100,Fromage blanc onctueux,fromage-blanc-2858
+Fromage râpé,5,grammes,100,Fromage râpé emmental,fromage-rape-5918
+Yaourt nature,5,pièce,1,Yaourt nature,yaourt-nature-3071
+Crème fraîche,5,grammes,100,Crème fraîche épaisse,creme-fraiche-7561
+Lait concentré,5,grammes,100,Lait concentré sucré,lait-concentre-3354
+Lait fermenté,5,litre,100,Lait fermenté probiotique,lait-fermente-4001
+Fromage de chèvre,5,grammes,100,Fromage de chèvre doux,fromage-de-chevre-4533
+Lait d’amande,5,litre,100,Lait végétal d’amande,lait-damande-5057
+Riz,6,grammes,100,Riz blanc ou complet,riz-6316
+Pâtes,6,grammes,100,Pâtes sèches,pates-6991
+Semoule,6,grammes,100,Semoule fine ou moyenne,semoule-1821
+Couscous,6,grammes,100,Grains de couscous,couscous-4371
+Boulgour,6,grammes,100,Boulgour de blé dur,boulgour-9687
+Millet,6,grammes,100,Millet décortiqué,millet-7163
+Orge,6,grammes,100,Orge perlé,orge-1969
+Flocons d’avoine,6,grammes,100,Flocons d’avoine complets,flocons-davoine-1141
+Polenta,6,grammes,100,Semoule de maïs,polenta-9278
+Quinoa,6,grammes,100,Graines de quinoa,quinoa-5488
+Pain,7,pièce,1,Pain de campagne,pain-7947
+Baguette,7,pièce,1,Baguette tradition,baguette-8202
+Pain complet,7,pièce,1,Pain complet bio,pain-complet-1016
+Pain de mie,7,pièce,1,Pain de mie moelleux,pain-de-mie-3340
+Pain pita,7,pièce,1,Pain pita souple,pain-pita-1214
+Pain burger,7,pièce,1,Pain à burger,pain-burger-5330
+Pain aux céréales,7,pièce,1,Pain aux graines,pain-aux-cereales-7853
+Brioche,7,pièce,1,Brioche pur beurre,brioche-8879
+Croissant,7,pièce,1,Croissant croustillant,croissant-3784
+Pain au lait,7,pièce,1,Pain au lait doux,pain-au-lait-4555
+Sucre,8,grammes,100,Sucre blanc ou roux,sucre-9128
+Sel,8,grammes,100,Sel fin ou gros sel,sel-1451
+Poivre,8,grammes,100,Poivre noir moulu,poivre-3583
+Farine,8,grammes,100,Farine de blé T55,farine-5538
+Huile d’olive,8,ml,100,Huile d’olive vierge extra,huile-dolive-2425
+Huile de tournesol,8,ml,100,Huile de tournesol,huile-de-tournesol-1090
+Moutarde,8,grammes,100,Moutarde forte,moutarde-6312
+Vinaigre,8,ml,100,Vinaigre de vin rouge,vinaigre-6750
+Chocolat,8,grammes,100,Chocolat noir pâtissier,chocolat-4576
+Confiture,8,grammes,100,Confiture de fraise maison,confiture-3343
+Eau minérale,9,litre,100,Eau de source naturelle,eau-minerale-6957
+Eau gazeuse,9,litre,100,Eau pétillante,eau-gazeuse-1298
+Jus d’orange,9,ml,100,Jus d’orange pressé,jus-dorange-6074
+Soda,9,ml,100,Boisson gazeuse sucrée,soda-4777
+Limonade,9,ml,100,Limonade artisanale,limonade-7511
+Thé noir,9,grammes,100,Thé noir en vrac,the-noir-4561
+Thé vert,9,grammes,100,Thé vert sencha,the-vert-2670
+Café moulu,9,grammes,100,Café moulu arabica,cafe-moulu-8969
+Sirop de menthe,9,ml,100,Sirop rafraîchissant à la menthe,sirop-de-menthe-5726
+Boisson énergétique,9,ml,100,Boisson énergisante,boisson-energetique-1214
+Carotte,1,pièce,1,Carotte fraîche et croquante,carotte-9527
+Tomate,1,pièce,1,Tomate rouge juteuse,tomate-3022
+Courgette,1,pièce,1,Courgette verte tendre,courgette-6991
+Poivron,1,pièce,1,Poivron coloré croquant,poivron-1914
+Brocoli,1,grammes,100,Brocoli vert riche en fibres,brocoli-2814
+Chou-fleur,1,pièce,1,Chou-fleur blanc savoureux,chou-fleur-3975
+Épinards,1,grammes,100,Feuilles d’épinards fraîches,epinards-4441
+Salade,1,pièce,1,Salade verte croquante,salade-9399
+Oignon,1,pièce,1,Oignon jaune parfumé,oignon-2373
+Ail,1,gousse,100,Gousse d’ail aromatique,ail-9017
+Pomme,2,pièce,1,Pomme sucrée et croquante,pomme-4202
+Banane,2,pièce,1,Banane mûre,banane-1696
+Poire,2,pièce,1,Poire juteuse,poire-1728
+Fraise,2,grammes,100,Fraises fraîches,fraise-1444
+Raisin,2,grammes,100,Raisin sucré,raisin-5183
+Kiwi,2,pièce,1,Kiwi vitaminé,kiwi-7397
+Orange,2,pièce,1,Orange juteuse,orange-9371
+Citron,2,pièce,1,Citron acidulé,citron-8846
+Ananas,2,pièce,1,Ananas tropical,ananas-7048
+Melon,2,pièce,1,Melon sucré,melon-2529
+Saumon,3,grammes,100,Filet de saumon frais,saumon-6355
+Cabillaud,3,grammes,100,Filet de cabillaud tendre,cabillaud-3532
+Thon,3,grammes,100,Thon en tranche,thon-3841
+Maquereau,3,grammes,100,Maquereau grillé,maquereau-2239
+Sardines,3,pièce,1,Sardines entières,sardines-1124
+Truite,3,grammes,100,Truite fraîche,truite-7269
+Colin,3,grammes,100,Filet de colin,colin-3399
+Bar,3,grammes,100,Filet de bar,bar-6372
+Dorade,3,grammes,100,Dorade royale,dorade-5033
+Lieu noir,3,grammes,100,Filet de lieu noir,lieu-noir-8967
+Steak haché,4,grammes,100,Steak haché pur bœuf,steak-hache-6309
+Côte de porc,4,grammes,100,Côte de porc juteuse,cote-de-porc-5966
+Rôti de porc,4,grammes,100,Rôti de porc tendre,roti-de-porc-6445
+Saucisse,4,grammes,100,Saucisse de campagne,saucisse-6445
+Jambon cru,4,grammes,100,Jambon cru affiné,jambon-cru-9843
+Boudin noir,4,grammes,100,Boudin noir traditionnel,boudin-noir-3474
+Foie de veau,4,grammes,100,Foie de veau délicat,foie-de-veau-4733
+Entrecôte,4,grammes,100,Entrecôte de bœuf,entrecote-5300
+Côte de bœuf,4,grammes,100,Côte de bœuf savoureuse,cote-de-buf-5161
+Gigot d’agneau,4,grammes,100,Gigot d’agneau fondant,gigot-dagneau-5951
+Poulet entier,10,grammes,100,Poulet entier frais,poulet-entier
+Blanc de poulet,10,grammes,100,Blanc de poulet tendre,blanc-de-poulet
+Cuisse de poulet,10,grammes,100,Cuisse de poulet juteuse,cuisse-de-poulet
+Aile de poulet,10,grammes,100,Aile de poulet savoureuse,aile-de-poulet
+Pilons de poulet,10,grammes,100,Pilons de poulet marinés,pilons-de-poulet
+Filet de dinde,10,grammes,100,Filet de dinde maigre,filet-de-dinde
+Escalope de dinde,10,grammes,100,Escalope de dinde tendre,escalope-de-dinde
+Cuisse de dinde,10,grammes,100,Cuisse de dinde rôtie,cuisse-de-dinde
+Aiguillettes de dinde,10,grammes,100,Aiguillettes de dinde fines,aiguillettes-de-dinde
+Rôti de dinde,10,grammes,100,Rôti de dinde moelleux,roti-de-dinde
+Filet de veau,10,grammes,100,Filet de veau délicat,filet-de-veau
+Escalope de veau,10,grammes,100,Escalope de veau fine,escalope-de-veau
+Côte de veau,10,grammes,100,Côte de veau savoureuse,cote-de-veau
+Rôti de veau,10,grammes,100,Rôti de veau tendre,roti-de-veau
+Blanquette de veau,10,grammes,100,Morceaux pour blanquette,blanquette-de-veau
+Sauté de veau,10,grammes,100,Sauté de veau fondant,saute-de-veau
+Filet de lapin,10,grammes,100,Filet de lapin tendre,filet-de-lapin
+Cuisse de lapin,10,grammes,100,Cuisse de lapin savoureuse,cuisse-de-lapin
+Lapin entier,10,grammes,100,Lapin entier découpé,lapin-entier
+Émincé de poulet,10,grammes,100,Émincé de poulet prêt à cuire,eminces-de-poulet
+Émincé de dinde,10,grammes,100,Émincé de dinde léger,eminces-de-dinde
+Poulet fermier,10,grammes,100,Poulet fermier de qualité,poulet-fermier
+Poulet rôti,10,grammes,100,Poulet rôti prêt à déguster,poulet-roti
+Poulet mariné,10,grammes,100,Poulet mariné aux herbes,poulet-marine
+Dinde fermière,10,grammes,100,Dinde fermière savoureuse,dinde-fermiere
+Veau haché,10,grammes,100,Viande de veau hachée,veau-hache
+Brochettes de poulet,10,grammes,100,Brochettes de poulet grillées,brochettes-de-poulet
+Brochettes de dinde,10,grammes,100,Brochettes de dinde marinées,brochettes-de-dinde
+Saucisse de volaille,10,grammes,100,Saucisse légère de volaille,saucisse-de-volaille
+Boudin blanc,10,grammes,100,Boudin blanc traditionnel,boudin-blanc
+Nuggets de poulet,10,grammes,100,Nuggets de poulet croustillants,nuggets-de-poulet
+Tenders de poulet,10,grammes,100,Tenders de poulet panés,tenders-de-poulet
+Poulet émincé thaï,10,grammes,100,Poulet émincé aux épices,poulet-thai
+Dinde émincée,10,grammes,100,Dinde émincée prête à cuire,dinde-emincee
+Veau pour grillade,10,grammes,100,Morceaux de veau pour grillade,veau-grillade
+Poulet sans peau,10,grammes,100,Poulet sans peau allégé,poulet-sans-peau
+Dinde sans peau,10,grammes,100,Dinde sans peau légère,dinde-sans-peau
+Poulet bio,10,grammes,100,Poulet biologique,poulet-bio
+Dinde bio,10,grammes,100,Dinde biologique,dinde-bio

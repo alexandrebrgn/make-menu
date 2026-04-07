@@ -3,5 +3,12 @@
     "fridge" : "Fridge",
     "recipes" : "Recipes",
     "kitchen" : "Kitchen",
-    "dev": "Developer"
+    "dev": "Developer",
+    "units": {
+        "g": "g",
+        "kg": "kg",
+        "ml": "ml",
+        "l": "l",
+        "pcs": "pcs"
+    }
 }

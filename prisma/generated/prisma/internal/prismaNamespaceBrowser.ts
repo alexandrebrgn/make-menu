@@ -52,7 +52,9 @@ export const AnyNull = runtime.AnyNull
 
 export const ModelName = {
   User: 'User',
-  Food: 'Food'
+  Food: 'Food',
+  FoodReference: 'FoodReference',
+  Category: 'Category'
 } as const
 
 export type ModelName = (typeof ModelName)[keyof typeof ModelName]
@@ -98,6 +100,31 @@ export const FoodScalarFieldEnum = {
 } as const
 
 export type FoodScalarFieldEnum = (typeof FoodScalarFieldEnum)[keyof typeof FoodScalarFieldEnum]
+
+
+export const FoodReferenceScalarFieldEnum = {
+  id: 'id',
+  name: 'name',
+  slug: 'slug',
+  unit: 'unit',
+  defaultQuantity: 'defaultQuantity',
+  description: 'description',
+  categoryId: 'categoryId',
+  createdAt: 'createdAt'
+} as const
+
+export type FoodReferenceScalarFieldEnum = (typeof FoodReferenceScalarFieldEnum)[keyof typeof FoodReferenceScalarFieldEnum]
+
+
+export const CategoryScalarFieldEnum = {
+  id: 'id',
+  name: 'name',
+  slug: 'slug',
+  description: 'description',
+  createdAt: 'createdAt'
+} as const
+
+export type CategoryScalarFieldEnum = (typeof CategoryScalarFieldEnum)[keyof typeof CategoryScalarFieldEnum]
 
 
 export const SortOrder = {

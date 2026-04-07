@@ -3,5 +3,12 @@
     "fridge" : "Frigidaire",
     "recipes" : "Recettes",
     "kitchen" : "Cuisine",
-    "dev" : "Développeur"
+    "dev" : "Développeur",
+    "units": {
+        "g": "g",
+        "kg": "kg",
+        "ml": "ml",
+        "l": "l",
+        "pcs": "pièce(s)"
+    }
 }
