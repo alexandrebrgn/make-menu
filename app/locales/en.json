@@ -1,14 +1,21 @@
 {
-    "home" : "Welcome",
-    "fridge" : "Fridge",
-    "recipes" : "Recipes",
-    "kitchen" : "Kitchen",
+    "home": "Welcome",
+    "fridge": "Fridge",
+    "recipes": "Recipes",
+    "kitchen": "Kitchen",
     "dev": "Developer",
     "units": {
         "g": "g",
         "kg": "kg",
         "ml": "ml",
         "l": "l",
-        "pcs": "pcs"
+        "pièce": "piece(s)"
+    },
+    "unitsLong": {
+        "g": "g (gram(s))",
+        "kg": "kg (kilogram(s))",
+        "ml": "ml (milliliter(s))",
+        "l": "l (liter(s))",
+        "pièce": "piece(s)"
     }
 }

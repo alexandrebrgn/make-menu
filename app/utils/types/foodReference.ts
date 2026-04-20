@@ -3,9 +3,9 @@ import { z } from "zod";
 const FoodReference = z.object({
     id: z.number(),
     name: z.string(),
-    category_id: z.number(),
-    unit: z.string(),
-    defaultQuantity: z.string(),
+    categoryId: z.number(),
+    unit: z.string().nullable(),
+    defaultQuantity: z.number().nullable(),
     description: z.string().nullable(),
     slug: z.string().nullable(),
 });

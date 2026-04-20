@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import { routerKey } from 'vue-router';
-import { useAuthStore } from '~/stores/auth';
+import { useAuthStore } from '../stores/auth';
 
 const { t } = useI18n();
 const auth = useAuthStore();

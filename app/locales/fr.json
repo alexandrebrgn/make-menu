@@ -1,14 +1,21 @@
 {
-    "home" : "Bienvenue",
-    "fridge" : "Frigidaire",
-    "recipes" : "Recettes",
-    "kitchen" : "Cuisine",
-    "dev" : "Développeur",
+    "home": "Bienvenue",
+    "fridge": "Frigidaire",
+    "recipes": "Recettes",
+    "kitchen": "Cuisine",
+    "dev": "Développeur",
     "units": {
         "g": "g",
         "kg": "kg",
         "ml": "ml",
         "l": "l",
-        "pcs": "pièce(s)"
+        "pièce": "pièce(s)"
+    },
+    "unitsLong": {
+        "g": "g (gramme(s))",
+        "kg": "kg (kilogramme(s))",
+        "ml": "ml (millilitre(s))",
+        "l": "l (litre(s))",
+        "pièce": "pièce(s)"
     }
 }
